@@ -1,0 +1,19 @@
+{
+  "name": "cart-it-out-docs",
+  "version": "0.0.1",
+  "description": "Web documentation of cart-it-out flutter template",
+  "main": "index.js",
+  "authors": {
+    "name": "Dwi Kurnianto Mulyadien",
+    "email": "dwikurnianto.mulyadien@gmail.com"
+  },
+  "repository": "https://github.com/Meruya-Techhnology/cart-it-out-docs.git/cart-it-out-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
