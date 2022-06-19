@@ -7,7 +7,7 @@
     "name": "Dwi Kurnianto Mulyadien",
     "email": "dwikurnianto.mulyadien@gmail.com"
   },
-  "repository": "https://github.com/Meruya-Techhnology/cart-it-out-docs.git/cart-it-out-docs",
+  "repository": "https://github.com/Meruya-Techhnology/cart-it-out-docs.git",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
