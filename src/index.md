@@ -2,14 +2,14 @@
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Web documentation of cart-it-out flutter template
-actionText: Quick Start →
-actionLink: /guide/
+actionText: Geting Started →
+actionLink: /documentation/#geting-started
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Scalable
+  details: Suitable for small company to big size company implementation
+- title: Reusable
+  details: Highly reusable, reduce development time and effort
+- title: Design oriented
+  details: Beautiful, Material 3, centralized theme, dark mode, and you can add your own color schemes !
 footer: Made by Meruya Technology
 ---

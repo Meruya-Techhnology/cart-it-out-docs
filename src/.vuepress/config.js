@@ -57,10 +57,11 @@ module.exports = {
           children: [
             '',
             'architecture',
-            'theming',
             'usages',
-            'utilities',
             'components',
+            'languages',
+            'utilities',
+            'theming',
           ]
         }
       ],

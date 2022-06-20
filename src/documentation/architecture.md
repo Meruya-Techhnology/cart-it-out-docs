@@ -107,3 +107,5 @@ The inner layer of DDD is the Presentation layer, this layer has 4 sub folders /
 3. **Widgets** there is a two type of widgets, one is composable which can be used from all pages, and one is typical widget which bound to the specific feature, which only available for specific pages
 4. **Params** params is like entity, but the different is params is class that passed from pages to another pagges with containing any object / entity. It's safe to say this is like (Entity wrapper in presentation)
 
+## Too complex ?
+The presentation layer is well separated from the datasources, you can just delete the Infrastructure & Domain layer if you want to. Or return the data straight inside the provider. This is the main solution if our `Architecture` is too complex for you.

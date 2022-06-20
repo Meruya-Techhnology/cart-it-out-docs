@@ -10,3 +10,41 @@ Cart It Out also using composable package that makes any further customization i
 - [Material 3](https://m3.material.io/) 
 
 ## Geting Started
+
+## Project Structure
+
+```
+.
+├─ assets
+│  ├─ images
+│  ├─ jsons
+│  └─ markdowns
+├─ android
+├─ ios
+├─ web
+├─ test
+└─ lib
+   ├─ common
+   │  ├─ consts
+   │  ├─ core
+   │  ├─ extensions
+   │  ├─ styles
+   │  └─ utils
+   ├─ domain
+   │  ├─ entities
+   │  ├─ repositories
+   │  ├─ usecases
+   │  ├─ error_handler (Optional)
+   │  └─ exceptions (Optional)
+   ├─ facade
+   ├─ infrastructure
+   │  ├─ datasources
+   │  ├─ models
+   │  ├─ mappers
+   │  └─ repositories
+   └─ presentation
+      ├─ providers
+      ├─ pages
+      ├─ params
+      └─ widgets
+```
