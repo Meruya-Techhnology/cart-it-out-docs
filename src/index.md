@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /logo-wide.png
 tagline: Web documentation of cart-it-out flutter template
 actionText: Geting Started →
 actionLink: /documentation/#geting-started

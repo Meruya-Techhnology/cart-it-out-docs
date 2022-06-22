@@ -10,11 +10,63 @@ Cart It Out also using composable package that makes any further customization i
 - [Material 3](https://m3.material.io/) 
 
 ## Geting Started
+After download and extract the project from Code Canyon run this code
+```sh
+flutter clean
+```
+Then run 
+```sh
+flutter pub get
+```
+Don't forget to add launch json for .vsCode configuration to run debug from Visual studio code.
+```json
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cart-it-out [Development]",
+            "request": "launch",
+            "type": "dart", 
+            "args": [
+                "--dart-define",
+                "PROFILE=development",
+            ],
+        },
+        {
+            "name": "cart-it-out [Staging](profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+                "--dart-define",
+                "PROFILE=staging",
+            ],
+        },
+        {
+            "name": "cart-it-out [Production](release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "--dart-define",
+                "PROFILE=production",
+            ],
+        }
+    ]
+}
+```
+However If you are using android studio you can add this args into launch configuration
+`--dart-define PROFILE=development/staging/production`
 
 ## Project Structure
 
 ```
 .
+├─ .vscode
+│  └─ launch.json
 ├─ assets
 │  ├─ images
 │  ├─ jsons
